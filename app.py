@@ -16,4 +16,4 @@ def name(name):
 
 @app.route('/about')
 def about():
-	return render_template('about.html', about = readDetails('static/about'))
+	return render_template('about.html', about = readDetails('static/about.txt'))
